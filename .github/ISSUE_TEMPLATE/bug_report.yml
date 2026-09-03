@@ -1,0 +1,43 @@
+name: Reportar un error
+description: Informar un comportamiento incorrecto o una falla
+title: "[Error]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Gracias por ayudarnos a mejorar. No publiques credenciales ni datos sensibles.
+  - type: textarea
+    id: summary
+    attributes:
+      label: Descripción
+      description: Explica claramente qué ocurrió.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Pasos para reproducir
+      placeholder: |
+        1. Ir a...
+        2. Presionar...
+        3. Observar...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Resultado esperado
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Entorno
+      placeholder: Producción, desarrollo, navegador, dispositivo y versión
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidencia adicional
+      description: Capturas o registros sin información sensible.
