@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Consultas comerciales y soporte privado
+    url: https://gocreative.cl
+    about: Contacta a GO Creative sin publicar información confidencial.
+  - name: Reportar una vulnerabilidad
+    url: mailto:contacto@gocreative.cl
+    about: Envía los reportes de seguridad de forma privada.
